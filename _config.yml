@@ -1,7 +1,8 @@
 # Site
-name: "品物啊"
+name: "Prompts Repository"
 title: "Prompts Repository"
-description: "提示词小仓库，收集漂亮的AI画作和优秀提示词。 Prompt repository, collect beautiful AI paintings and excellent prompts."
+description: "Prompt repository, collect beautiful AI paintings and excellent prompts."
+description_zh: "提示词小仓库，收集漂亮的AI画作和优秀提示词。"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
@@ -15,22 +16,22 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/avatar-sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/donate/
+  pinwua:
+    name: pinwua
+    display_name: PinWuA
+    avatar: 'assets/images/avatar.webp'
+    email: 
+    web: https://pinwua.pub/
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+    description: "Love this magical universe."
+  none:
+    name: none
+    display_name: Guest
+    avatar: 'assets/images/avatar-guest.webp'
+    email: 
+    web: https://pinwua.pub/?s=authors_Guest
+    twitter: 
+    description: "We never know what will happen next!"
 
 # Plugins
 plugins:
@@ -79,3 +80,11 @@ sass:
   style: compressed
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+# Themes
+
+# Navigation
+# nav
+#  - Get Memoirs: https://bootstrapstarter.com/jekyll-theme-memoirs/
+#  - Contact: /contact
+#  - Contributors: /authors

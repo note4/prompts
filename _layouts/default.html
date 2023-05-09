@@ -52,9 +52,6 @@
         <h3>Navigation</h3>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
         <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li><a href="{{ site.baseurl }}/authors">Contributors <span class="badge badge-primary">new</span></a></li>
-        <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li>      
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
     </ul>   
 </nav>
 
@@ -86,7 +83,7 @@
 
     <!-- Content
     ================================================== -->
-    <div class="main-content">
+    <div class="main-content{% if post.layout == 'post_ai' %} post_ai{% else %}{% endif %}">
         {{ content }}
     </div>
 
@@ -115,7 +112,7 @@
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-12 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
+                .
             </div>
         </div>
     </div>
