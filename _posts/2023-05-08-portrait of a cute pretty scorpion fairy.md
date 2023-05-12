@@ -4,8 +4,9 @@ title:  "portrait of a cute pretty scorpion fairy, fantasy, whimsical, art by jo
 author: pinwua
 categories: [ Midjourney Prompts ]
 tags: [ Realistic, Midjourney Prompts ]
-engine: mj
 image: 408b24735860d2e8.webp
 rating: 3
+engine: mj
+creator: htb
 ---
 hi!
