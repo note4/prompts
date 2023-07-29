@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 /.history/
 .DS_Store
+*-*x*.webp
+*-*x*.jpg
+*-*x*.png
+*-*x*.jpeg
