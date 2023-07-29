@@ -1,7 +1,7 @@
 # Site
-name: "Prompts Repository"
-title: "Prompts Repository"
-description: "Prompt repository, collect beautiful AI paintings and excellent prompts."
+name: "Prompts Push"
+title: "Prompts Push"
+description: "Hot Prompts, collect beautiful AI paintings and excellent prompts."
 description_zh: "提示词小仓库，收集漂亮的AI画作和优秀提示词。"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -51,8 +51,8 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
-paginate_path: /page:num/
+paginate: 3
+paginate_path: /page/:num/
     
 # Other
 highlighter: none
